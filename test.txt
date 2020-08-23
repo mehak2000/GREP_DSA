@@ -1,0 +1,58 @@
+./grep -c pattern filename// checked with multiple files
+./grep -i pattern filename//checked
+./grep -v pattern filename//checked
+./grep -w pattern filename//checked
+./grep -m num pattern filename//checked
+./grep -l pattern //checked
+
+//to work in the entire directory;
+./grep -h pattern filename// checked
+./grep -H pattern filename//checked
+./grep -i -H pattern filename//checked
+./grep -v -H pattern filename//checked
+./grep -c -H pattern filename // checked 
+./grep -w -H pattern filename//checked
+./grep -m 5 -H pattern filename//checked
+./grep -i -h pattern filename//checked
+./grep -v -h pattern filename//checked
+./grep -c -h pattern filename //checked
+./grep -w -h pattern filename//checked
+./grep -m 5 -h pattern filename//checked
+./grep -n -H pattern filename//checked
+./grep -n -h pattern filename//checked
+./grep -r pattern//checked
+./grep -r -i pattern//checked
+./grep -r -v pattern//checked
+./grep -r  -c pattern //checked
+./grep -r  -w pattern//checked
+./grep -n pattern filename//checked
+./grep -e pattern filename -e pattern filename // checked
+COMBINATIONS-
+./grep -ci pattern filename//checked
+./grep -vi pattern filename//chcekd
+./grep -cv pattern filename//checked
+./grep -cvi pattern filename//chekced
+./grep -cvw pattern filename//checked
+./grep -vw pattern filename//checked
+./grep -i -e pattern filename -v -e pattern2 filename//checked
+./grep -i -e pattern filename -c -e pattern2 filename//
+./grep -i -e pattern filename -m5-e pattern2 filename//
+./grep -v -e pattern filename -i -e pattern2 filename
+./grep -v -e pattern filename -c -e pattern2 filename
+./grep -v -e pattern filename -m5 -e pattern2 filename
+./grep -c -e pattern filename -v -e pattern2 filename//checked
+./grep -c -e pattern filename -i -e pattern2 filename//checked
+./grep -m NUM -e pattern filename -i -e pattern2 filename
+./grep -m NUM -e pattern filename -v -e pattern2 filename
+./grep -m NUM -e pattern filename -c -e pattern2 filename
+./grep  -v -n pattern filename
+./grep  -m NUM -n pattern filename//checked
+./grep -c -n pattern//checked
+./grep -m 5 -n -h pattern filename //checked
+./grep -v -n -h pattern filename//
+./grep -i -n -h pattern filename//
+./grep -c -n -h pattern filename//checked
+./grep -m 5 -n -H pattern filename//
+./grep -v -n -H pattern filename//
+./grep -i -n -H pattern filename//
+./grep -c -n -H pattern filename //checked
